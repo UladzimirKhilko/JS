@@ -10,6 +10,7 @@ const personalMovieDB = {
     privat: false
 };
 
+<<<<<<< HEAD
 for (let i = 0; i < 2; i++) {
     
     const a = prompt('Один из последних просмотренных фильмов?', ''),
@@ -35,3 +36,14 @@ if (numberOfFilms < 10) {
     } else {
         console.log('Произошла ошибка');
     }
+=======
+const a = prompt('Один из последних просмотренных фильмов?', ''),
+      b = prompt('На сколько его оцените?', ''),
+      c = prompt('Один из последних просмотренных фильмов?', ''),
+      d =  prompt('На сколько его оцените?', '');
+
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
+
+console.log(personalMovieDB);
+>>>>>>> b721b30faa825a64b883af3bddb13058075b0f19
